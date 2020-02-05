@@ -1,4 +1,6 @@
 <?php
+require_once('config.php');
+$_SESSION["companhia"] = "LATAN";
 
 
 $frase = "Linhas aereas";
@@ -26,3 +28,6 @@ echo $frase;
 
 </body>
 </html>
+
+
+
